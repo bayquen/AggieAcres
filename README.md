@@ -25,9 +25,9 @@ Many students wish to move out of dorms after their first year but struggle with
 3. **Results Display**: The best housing options are displayed, ranked by suitability factors like price, location, and commute time.
 
 ## Get Involved
-Interested in contributing or learning more? Visit our GitHub page [here]([URL_to_GitHub_repo](https://github.com/bayquen/AggieAcres)!
+Interested in contributing or learning more? Visit our GitHub page [here](https://github.com/bayquen/AggieAcres)!
 
 ## Contact Us
-For more information, feel free to reach out via our mail.
+For more information, feel free to reach out via our email.
 
 We look forward to making your apartment hunting experience in Davis as seamless and efficient as possible!
