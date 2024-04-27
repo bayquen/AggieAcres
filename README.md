@@ -1,4 +1,4 @@
-# AggieAcresSearch
+# AggieAcres
 ## HackDavis 2024 Project 
 ### By: Yu, Jhaydine, Ethan, and Brandon
 
