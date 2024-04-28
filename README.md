@@ -11,7 +11,7 @@ Many students wish to move out of dorms after their first year but struggle with
 
 ## Features
 - **User Input Interface**: Collect user preferences through a simple web form.
-- **Data Aggregation**: Aggregate housing data from multiple sources like Zillow and House Rental.
+- **Data Aggregation**: Aggregate housing data from Apartments.com.
 - **Smart Analysis**: Utilize INTEL CLOUD API for intelligent parsing and recommendation of housing options.
 
 ## Technology Stack
@@ -22,7 +22,7 @@ Many students wish to move out of dorms after their first year but struggle with
 ## How It Works
 1. **User Submission**: Users input their preferences directly on the website.
 2. **Data Processing**: Backend scripts fetch and analyze data from over 10 sources.
-3. **Results Display**: The best housing options are displayed, ranked by suitability factors like price, location, and commute time.
+3. **Results Display**: The best housing options are displayed, ranked by suitability factors like price, location, and number of bedrooms.
 
 ## Get Involved
 Interested in contributing or learning more? Visit our GitHub page [here](https://github.com/bayquen/AggieAcres)!
