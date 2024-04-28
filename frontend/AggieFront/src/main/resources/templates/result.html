@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Davis Apartment Finder</title>
+    <link href="https://cdn.tailwindcss.com" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Open Sans', sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-white">
+<div class="container mx-auto px-4">
+    <main class="py-32">
+        <div class="text-center">
+            <h1 class="text-2xl font-bold text-gray-800 pb-12">
+                Recommended Apartments
+            </h1>
+            <p class="text-lg text-gray-800" th:text="${leftContent}">
+                Default left content.
+            </p>
+            <p class="text-lg text-gray-800 mt-4" th:text="${rightContent}">
+                Default right content.
+            </p>
+        </div>
+    </main>
+</div>
+</body>
+</html>
