@@ -14,7 +14,6 @@ import org.springframework.web.client.RestTemplate;
 
 import java.util.Map;
 
-import static org.springframework.data.repository.init.ResourceReader.Type.JSON;
 
 @RestController
 public class DataController {
@@ -23,23 +22,8 @@ public class DataController {
     public String processData(@RequestParam("inputData") String inputData, Model model) {
         String flaskResponse = sendToFlask(inputData);
         System.out.println(flaskResponse);
-        try {
-            // 解析Flask返回的JSON数据
-            ObjectMapper mapper = new ObjectMapper();
-            Map<String, String> responseMap = mapper.readValue(flaskResponse, Map.class);
-            String processedDataJson = responseMap.get("processed_data");
+        return flaskResponse;
 
-            // 解析嵌套的JSON字符串
-            Map<String, String> contentMap = mapper.readValue(processedDataJson, Map.class);
-            model.addAttribute("leftContent", contentMap.get("left_content"));
-            model.addAttribute("rightContent", contentMap.get("right_content"));
-
-            return "result"; // Thymeleaf模板名称
-        } catch (Exception e) {
-            e.printStackTrace();
-            model.addAttribute("error", "Failed to parse the response from Flask.");
-            return flaskResponse; // 错误视图名称
-        }
     }
     public String sendToFlask(String data) {
         String flaskUrl = "http://localhost:25565/api/process-data";
