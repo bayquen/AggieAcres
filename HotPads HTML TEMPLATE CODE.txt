@@ -1,0 +1,88 @@
+<html>
+ <head>
+  <title>
+   Apartment Listings
+  </title>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <style>
+   body {
+            font-family: 'Arial', sans-serif;
+        }
+  </style>
+ </head>
+ <body class="bg-gray-100">
+  <header class="bg-white shadow">
+   <div class="max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8">
+    <h1 class="text-3xl font-bold text-gray-900">
+     Apartments for rent in Davis CA
+    </h1>
+    <p class="text-gray-600">
+     321 apartments for rent
+    </p>
+   </div>
+  </header>
+  <main class="my-8">
+   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="bg-white p-6 rounded-lg shadow">
+     <div class="grid grid-cols-4 gap-6">
+      <div class="col-span-1">
+       <input class="border p-2 w-full" placeholder="Davis, CA" type="text"/>
+      </div>
+      <div class="col-span-1">
+       <select class="border p-2 w-full">
+        <option>
+         Any price
+        </option>
+       </select>
+      </div>
+      <div class="col-span-1">
+       <select class="border p-2 w-full">
+        <option>
+         All beds
+        </option>
+       </select>
+      </div>
+      <div class="col-span-1">
+       <button class="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded">
+        Search
+       </button>
+      </div>
+     </div>
+    </div>
+    <div class="mt-8">
+     <h2 class="text-2xl font-bold text-gray-900 mb-4">
+      Property types
+     </h2>
+     <div class="grid grid-cols-4 gap-4">
+      <div>
+       <img alt="1 Bedroom apartment interior" class="rounded-lg" height="200" src="https://oaidalleapiprodscus.blob.core.windows.net/private/org-aN3uIAlt4t3ML1ftR7x7oMES/user-KWxmlzPHmZnmOURl3QSI46eZ/img-M7UW8tCvTHMjRtRHjar9JHIE.png?st=2024-04-27T22%3A55%3A11Z&amp;se=2024-04-28T00%3A55%3A11Z&amp;sp=r&amp;sv=2021-08-06&amp;sr=b&amp;rscd=inline&amp;rsct=image/png&amp;skoid=6aaadede-4fb3-4698-a8f6-684d7786b067&amp;sktid=a48cca56-e6da-484e-a814-9c849652bcb3&amp;skt=2024-04-27T04%3A54%3A25Z&amp;ske=2024-04-28T04%3A54%3A25Z&amp;sks=b&amp;skv=2021-08-06&amp;sig=UFgOEMCKgt/un36ghWfZ%2BSGDNS/bcQEYCNaw/LREaXU%3D" width="300"/>
+       <p class="mt-2 text-center font-semibold">
+        1 Bedroom
+       </p>
+      </div>
+      <div>
+       <img alt="2 Bedrooms apartment interior" class="rounded-lg" height="200" src="https://oaidalleapiprodscus.blob.core.windows.net/private/org-aN3uIAlt4t3ML1ftR7x7oMES/user-KWxmlzPHmZnmOURl3QSI46eZ/img-spl8fqc8tulO833Sdu7lj05x.png?st=2024-04-27T22%3A55%3A14Z&amp;se=2024-04-28T00%3A55%3A14Z&amp;sp=r&amp;sv=2021-08-06&amp;sr=b&amp;rscd=inline&amp;rsct=image/png&amp;skoid=6aaadede-4fb3-4698-a8f6-684d7786b067&amp;sktid=a48cca56-e6da-484e-a814-9c849652bcb3&amp;skt=2024-04-27T19%3A21%3A49Z&amp;ske=2024-04-28T19%3A21%3A49Z&amp;sks=b&amp;skv=2021-08-06&amp;sig=tgHi3tWKdWNO7bQLSnReebkpCB5MamBcPkzEQ3lagOw%3D" width="300"/>
+       <p class="mt-2 text-center font-semibold">
+        2 Bedrooms
+       </p>
+      </div>
+      <div>
+       <img alt="3 Bedrooms apartment interior" class="rounded-lg" height="200" src="https://oaidalleapiprodscus.blob.core.windows.net/private/org-aN3uIAlt4t3ML1ftR7x7oMES/user-KWxmlzPHmZnmOURl3QSI46eZ/img-syUthhX2FTeE3tB98RQeZBFe.png?st=2024-04-27T22%3A55%3A15Z&amp;se=2024-04-28T00%3A55%3A15Z&amp;sp=r&amp;sv=2021-08-06&amp;sr=b&amp;rscd=inline&amp;rsct=image/png&amp;skoid=6aaadede-4fb3-4698-a8f6-684d7786b067&amp;sktid=a48cca56-e6da-484e-a814-9c849652bcb3&amp;skt=2024-04-27T19%3A36%3A36Z&amp;ske=2024-04-28T19%3A36%3A36Z&amp;sks=b&amp;skv=2021-08-06&amp;sig=2J4DbJQJfaowt499RRxg4MPO8P1uZdO%2BYlRNjm0ITZg%3D" width="300"/>
+       <p class="mt-2 text-center font-semibold">
+        3 Bedrooms
+       </p>
+      </div>
+      <div>
+       <img alt="Apartment building exterior" class="rounded-lg" height="200" src="https://oaidalleapiprodscus.blob.core.windows.net/private/org-aN3uIAlt4t3ML1ftR7x7oMES/user-KWxmlzPHmZnmOURl3QSI46eZ/img-Haw2zPBKJ6puyOVeXKvOKwer.png?st=2024-04-27T22%3A55%3A10Z&amp;se=2024-04-28T00%3A55%3A10Z&amp;sp=r&amp;sv=2021-08-06&amp;sr=b&amp;rscd=inline&amp;rsct=image/png&amp;skoid=6aaadede-4fb3-4698-a8f6-684d7786b067&amp;sktid=a48cca56-e6da-484e-a814-9c849652bcb3&amp;skt=2024-04-27T19%3A30%3A43Z&amp;ske=2024-04-28T19%3A30%3A43Z&amp;sks=b&amp;skv=2021-08-06&amp;sig=fU0TBhzX40cI20tFppFNTn7p5%2BCtFqM/5aberkj%2BcnE%3D" width="300"/>
+       <p class="mt-2 text-center font-semibold">
+        Apartments
+       </p>
+      </div>
+     </div>
+    </div>
+   </div>
+  </main>
+ </body>
+</html>
