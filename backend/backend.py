@@ -15,7 +15,7 @@ max_bed_filter = 2
 
 def scrape_apartments_website():
     # Open the file in append mode
-    with open('data.txt', "a") as f:
+    with open('data.csv', "a") as f:
         service = Service(executable_path="/Users/ethann/Desktop/hackdavis24/chromedriver")
         driver = webdriver.Chrome(service=service)
         driver.get("https://www.apartments.com/davis-ca/")
